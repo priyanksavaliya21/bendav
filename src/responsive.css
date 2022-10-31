@@ -1,0 +1,761 @@
+@media (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+    .mercury_finance_sec .container{
+        max-width: 1000px;
+    }
+}
+@media (max-width: 1600px){
+    .liability_animation_2{
+        right: 29px;
+    }
+    .liability_animation_1{
+        left: 46px;
+    }
+}
+
+@media (max-width: 1440px){
+    .hero_right ,
+    .hero_left {
+        width: 6%;
+    }
+    .hero_sec_text > h1 {
+        font-size: 65px;
+    }
+    .hero_sec {
+        padding: 120px 0 ;
+    }
+    .liability_animation_1  ,
+    .liability_animation_2  {
+        width: 6%;
+    }
+    .allStablecoin_animation{
+        width: 6%;
+    }
+    .sam_padding {
+        padding: 40px 0;
+    }
+    .join_community{
+        padding: 40px 0 120px 0;
+    }
+    .video_block {
+        top: -200px;
+        right: 200px;
+    }
+    .hero_sec_row {
+        align-items: center;
+        margin-top: unset;
+    }
+}
+
+@media (max-width: 1280px){
+    .hero_right ,
+    .hero_left  {
+        width: 3%;
+    }
+    .hero_sec_text > h1 {
+        font-size: 62px;
+    }
+    .hero_left {
+        top: 15px;
+    }
+    .hero_sec {
+        padding: 55px 0;
+    }
+    .hero_sec {
+        padding: 55px 0 20px 0;
+    }
+    .liability_animation_2{
+        right: 15px;
+        top: -70px;
+    }
+    .allStablecoin_animation {
+        width: 5%;
+    }
+    .join_community_animation_2{
+        bottom: -21px;
+    }
+    .join_community_animation_1,
+    .join_community_animation_2{
+        width: 4%;
+    }
+    .join_community_animation_1{
+        bottom: -30px;
+    }
+    .video_block video{
+        max-width: 120%;
+    }
+    .video_block {
+        top: -110px;
+        right: 150px;
+    }
+}
+
+@media (max-width: 1199px){
+    .hero_right, .hero_left {
+        width: 5%;
+    }
+    .hero_sec {
+        padding: 90px 0;
+    }
+    .video_block {
+        top: -160px;
+        right: 60px;
+    }
+    .video_block video {
+        max-width: 110%;
+    }
+    .hero_sec_text > h1 {
+        font-size: 47px;
+        margin-bottom: 30px;
+    }
+    .mercury_features_card {
+        padding: 20px;
+    }
+    .mercury_card_img img {
+        width: 59%;
+    }
+    .mercury_card_text h4 {
+        font-size: 21px;
+    }
+    .liability_img_block .liability_img {
+        width: 70%;
+    }
+    .liability_img_block .animation_border {
+        width: 360px;
+        height: 360px;
+    }
+    .animation_border .circle{
+        width: 100%;
+    }
+    .animation_border .circle {
+        width: 20%;
+    }
+    .animation_border .circle.teal {
+        left: -31px;
+        top: 140px;
+    }
+    .animation_border .circle.yellow {
+        left: 265px;
+        top: 10px;
+    }
+    .animation_border .circle.blue {
+        left: 240px;
+        top: 290px;
+    }
+    .liability_animation_1{
+        bottom: 0;
+        left: 26px;
+    }
+    .web_heading h2 {
+        font-size: 38px;
+        line-height: 1.455;
+    }
+    .allStablecoin_card {
+        padding: 20px;
+    }
+    .fill_border {
+        min-height: 284px;
+    }
+    .join_community_bg {
+        padding: 60px 0;
+    }
+    .mercury_finance_animation {
+        top: 0;
+    }
+}
+
+@media (max-width: 991px){
+    .mercury_finance_animation {
+        width: 8%;
+    }
+    .video_block video {
+        max-width: 95%;
+    }
+    .video_block {
+        top: -140px;
+        right: -70px;
+    }
+    .hero_sec {
+        padding: 120px 0 40px 0;
+    }
+    .allStablecoin_sec .row div:nth-child(even) .fill_border {
+        background: linear-gradient(190deg, #29ABE2 15%, #29ABE2 10%, #29ABE2 5%, rgba(4, 15, 24, 0) 70%, rgba(4, 15, 24, 0) 100%);
+        transition: all 0.5s ease;
+    }
+    .logo_hold a {
+        width: 80%;
+    }
+    .menu_block ul li:not(:last-child) {
+        margin-right: 25px;
+    }
+    .menu_list ul li:last-child a {
+        font-size: 17px;
+        padding: 11px 29px;
+    }
+    .hero_sec_text > h1 {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    .hero_btn a {
+        border-radius: 30px;
+        font-size: 16px;
+        padding: 11px 30px;
+    }
+    .sam_padding .row{
+        justify-content: center;
+    }
+    .sam_padding .row > div{
+        margin-top: 30px;
+    }
+    .mercury_features_sec .web_heading {
+        margin-bottom: 10px;
+    }
+    .mercury_card_text h4 {
+        font-size: 17px;
+    }
+    .mercury_card_img img {
+        width: 53%;
+    }
+    .liability_img_block .animation_border {
+        width: 300px;
+        height: 300px;
+    }
+    .animation_border .circle.yellow {
+        left: 224px;
+        top: 10px;
+    }
+    .animation_border .circle.blue {
+        left: 160px;
+        top: 260px;
+    }
+    .animation_border .circle.teal {
+        left: -31px;
+        top: 110px;
+    }
+    .web_heading h2 {
+        font-size: 29px;
+    }
+    .allStablecoin_sec .allStablecoin_animation {
+        top: 63%;
+        width: 10%;
+    }
+    .allStablecoin_sec .web_heading {
+        margin-bottom: 10px;
+    }
+    .table_block thead tr th {
+        font-size: 17px;
+        padding: 20px 0;
+    }
+    .table_block tbody tr td {
+        font-size: 17px;
+    }
+    .join_community_bg {
+        padding: 50px 0;
+    }
+    .join_community_bg ul li a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    }
+    .join_community {
+        padding: 20px 0 90px 0;
+    }
+    .join_community .web_heading h2 {
+        letter-spacing: 2px;
+    }
+    .footer_logo{
+        display: inline-block;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /********************  Mobile Menu Css Start *********************/
+    .landing-page header {
+        padding: 10px 0 10px;
+    }
+    .cm-overflow, .cm-overflow body, .modal-open {
+        overflow: hidden;
+        touch-action: none;
+    }
+    .menu_list{
+        width: 100%;
+        position: relative;
+        z-index: 99;
+    }
+    .logo_hold {
+        position: relative;
+        z-index: 110;
+    }
+    .logo_hold a {
+        width: 70%;
+    }
+    .menu_toggle_btn {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        position: relative;
+        z-index: 102;
+    }
+    .open_menu .menu_toggle_btn span {
+        background-color: #fff;
+    }
+    .open_menu .menu_block {
+        clip-path: circle(100%);
+        -webkit-clip-path: circle(100%);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: visible;
+        text-align: center;
+    }
+    .menu_block {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgb(4 7 24);
+        clip-path: circle(0px at 100% 0px);
+        -webkit-clip-path: circle(0px at 100% 0px);
+        -webkit-transition: 0.5s ease all;
+        -o-transition: 0.5s ease all;
+        transition: 0.5s ease all;
+        z-index: 100;
+        padding: 120px 0px 30px;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .menu_block .social_mobile_menu ul {
+        display: flex;
+        flex-flow: row;
+        margin: 0 auto;
+    }
+    .open_menu .menu_block .menu_list > ul{
+        display: inline-block;
+    }
+    .open_menu .menu_block .menu_list > ul li {
+        transform: translateX(0);
+    }
+    .menu_block .menu_list > ul li {
+        width: 100%;
+        height: unset;
+        margin-bottom: 35px;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .open_menu .menu_block ul li {
+        transform: translateX(0);
+    }
+    .menu_block ul li {
+        margin-right: 0;
+        text-align: left;
+        width: 100%;
+        min-width: auto;
+        transform: translateX(100vw);
+        transition: all 0.3s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu_block ul li a {
+        color: #fff;
+        font-size: 20px;
+    }
+    .menu_block ul li:nth-child(1) {
+        transition-delay: 0.10s;
+    }
+    .open_menu .menu_toggle_btn span:nth-child(1) {
+        transform: rotate(45deg) translateY(0px) translateX(3px);
+        width: 18.39px;
+        margin-left: unset;
+    }
+    .menu_block ul li:nth-child(3) {
+        transition-delay: 0.15s;
+    }
+    .open_menu .menu_toggle_btn span:nth-child(3) {
+        transform: rotate(-47deg) translateY(-7px) translateX(10px);
+    }
+    .menu_block ul li:nth-child(5) {
+        transition-delay: 0.25s;
+    }
+    .menu_block ul li:nth-child(6) {
+        transition-delay: 0.30s;
+    }
+    .menu_block ul li:nth-child(7) {
+        transition-delay: 0.35s;
+    }
+    .menu_block ul li{
+        padding-top: 0;
+    }
+    .menu_block ul li .header_join_btn a{
+        width: 152px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 2;
+        color: #fff;
+        padding: 8px 28px;
+    }
+    .bg_shape{
+        display: inline-block;
+        height: 100%;
+    }
+    .bg_shape img{
+        height: 100%;
+    }
+    .menu_block .social_list{
+        width: 40px;
+    }
+    .menu_block .social_mobile_menu ul li+li{
+        margin-top: 0;
+    }
+    .menu_block .social_mobile_menu ul li{
+        padding-bottom: 0;
+    }
+    .menu_block .social_mobile_menu{
+        padding-left: 15px;
+        margin-top: 10px;
+        padding-right: 15px;
+    }
+    .menu_block ul li:not(:last-child) {
+        margin-right: 10px;
+    }
+    .menu_block ul li {
+        padding-bottom: 0px;
+    }
+    .menu_block ul {
+        line-height: 1;
+    }
+    /********************  Mobile Menu Css Close *********************/
+    .hero_sec_row > div:first-child{
+        order: 2;
+    }
+    .hero_sec_row > div:last-child{
+        order: 1;
+    }
+    .hero_sec {
+        padding: 420px 0 40px 0;
+    }
+    .video_block {
+        top: -460px;
+        right: 10px;
+        max-width: 100%;
+    }
+    .liability_centric_row {
+        flex-wrap: wrap;
+    }
+    .liability_centric_row > div {
+        width: 100%;
+    }
+    .liability_centric_sec .web_heading h2 {
+        text-align: center;
+    }
+    .liability_centric_sec .web_heading {
+        max-width: 400px;
+        margin: 0 auto 70px auto;
+    }
+    .hero_right,
+    .hero_left {
+        width: 11%;
+    }
+    .mercury_card_img img {
+        width: 33%;
+    }
+    .liability_img_block .animation_border {
+        width: 400px;
+        height: 400px;
+    }
+    .animation_border .circle.blue {
+        left: 180px;
+        top: 350px;
+    }
+    .animation_border .circle.yellow {
+        left: 294px;
+        top: 10px;
+    }
+    .liability_centric_sec::before{
+        background-position-x: 10%;
+    }
+    .allStablecoin_img{
+        display: flex;
+        justify-content: center;
+    }
+    .allStablecoin_sec .allStablecoin_animation{
+        display: none;
+    }
+    .liability_animation_2{
+        right: 45px;
+        top: 80px;
+    }
+    .join_community_bg {
+        background-position-x: -130px;
+    }
+    .join_community {
+        padding: 20px 0 70px 0;
+    }
+    .join_community_bg ul li a {
+        width: 35px;
+        height: 35px;
+    }
+    .footer_block {
+        padding: 30px 0;
+    }
+    .copyright_block {
+        padding: 15px 0;
+    }
+    .copyright_block p {
+        font-size: 15px;
+    }
+    .table_block tbody tr td {
+        font-size: 15px;
+    }
+    .table_block thead tr th {
+        font-size: 15px;
+        padding: 15px 0;
+    }
+}
+@media (max-width: 575px){
+    .hero_sec {
+        padding: 400px 0 40px 0;
+    }
+    .video_block {
+        top: -450px;
+        right: -1px;
+    }
+    .liability_img_block .animation_border {
+        width: 300px;
+        height: 300px;
+    }
+    .liability_img_block .liability_img {
+        width: 55%;
+    }
+    .animation_border .circle.yellow {
+        left: 220px;
+        top: 10px;
+    }
+    .animation_border .circle.blue {
+        left: 180px;
+        top: 252px;
+    }
+    .hero_sec_text > h1 {
+        font-size: 33px;
+    }
+    .hero_btn a {
+        padding: 11px 25px;
+    }
+    .mercury_card_img {
+        min-height: 200px;
+    }
+    .sam_padding {
+        padding: 60px 0 30px 0;
+    }
+    .join_community {
+        padding: 20px 0 70px 0;
+    }
+    .footer_icons li a {
+        width: 35px;
+        height: 35px;
+    }
+    .footer .row{
+        align-items: center;
+    }
+    .table_block {
+        width: 150%;
+    }
+    .join_community_bg {
+        background-position-x: center;
+    }
+    .join_community_animation_1 img{
+        display: none;
+    }
+    .footer_icons li {
+        margin-left: 15px;
+    }
+    .table_main_block::-webkit-scrollbar{
+        height: 2px;
+    }
+    .table_main_block::-webkit-scrollbar-track{
+        background: #202334;
+        border-radius: 1px;
+    }
+    .table_main_block::-webkit-scrollbar-thumb{
+    	background:#29ABE2;
+    	border-radius: 10px;
+    }
+}
+
+@media (max-width: 450px){
+    .video_block  {
+        top: -400px;
+        right: -11px;
+    }
+    .hero_sec {
+        padding: 350px 0 40px 0;
+    }
+}
+
+@media (max-width: 400px){
+    .hero_sec {
+        padding: 340px 0 40px 0;
+    }
+    .video_block  {
+        top: -372px;
+        right: 0px;
+    }
+    .liability_img_block .animation_border {
+        width: 230px;
+        height: 230px;
+    }
+    .animation_border .circle.yellow {
+        left: 175px;
+        top: 10px;
+    }
+    .animation_border .circle.blue {
+        left: 130px;
+        top: 199px;
+    }
+    .animation_border .circle.teal {
+        left: -23px;
+        top: 90px;
+    }
+    .hero_sec_text > h1 {
+        font-size: 40px;
+    }
+    .hero_btn a {
+        padding: 11px 49px;
+    }
+    .hero_right{
+        bottom: 323px;
+    }
+    .hero_left {
+        top: 35px;
+    }
+    .web_heading h2 {
+        font-size: 28px;
+    }
+    .mercury_features_card {
+        padding: 20px 30px 30px 30px;
+        min-height: 336px;
+    }
+    .mercury_card_img img {
+        width: 55%;
+    }
+    .mercury_card_text h4 {
+        font-size: 20px;
+    }
+    .mercury_features_sec .web_heading {
+        margin-bottom: 0;
+    }
+    .liability_centric_sec {
+        margin: 60px 0 90px 0;
+    }
+    .liability_animation_2{
+        right: 35px;
+        top: 140px;
+    }
+    .liability_animation_1,
+    .liability_animation_2{
+        width: 7%;
+    }
+    .fill_border {
+        min-height: 323px;
+    }
+    .table_block {
+        width: 230%;
+    }
+    .join_community_animation_2{
+        bottom: 220px;
+        width: 5%;
+    }
+    .footer .row {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .row > div{
+        width: 100%;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .footer_logo {
+        width: 50%;
+    }
+    .footer_icons {
+        justify-content: center;
+    }
+    .footer_block {
+        padding: 0;
+    }
+    .join_community {
+        padding: 20px 0 40px 0;
+    }
+    header {
+        padding-top: 20px;
+      }
+}
+
+@media (max-width: 367px){
+    .video_block {
+        top: -292px;
+    }
+    .hero_sec {
+        padding: 290px 0 40px 0;
+    }
+    .liability_img_block .animation_border {
+        width: 190px;
+        height: 190px;
+    }
+    .animation_border .circle.blue {
+        left: 90px;
+        top: 169px;
+    }
+    .animation_border .circle.yellow {
+        left: 135px;
+        top: 0px;
+    }
+    .animation_border .circle.teal {
+        left: -17px;
+        top: 70px;
+    }
+    .liability_animation_2{
+        right: 35px;
+        top: 170px;
+    }
+    .web_heading h2 {
+        font-size: 25px;
+    }
+    .fill_border {
+        min-height: 280px;
+    }
+    .mercury_card_text h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .liability_animation_2{
+        right: 15px;
+        top: 150px;
+    }
+    .hero_sec_text > h1 {
+        font-size: 27px;
+    }
+    .hero_btn a {
+        padding: 10px 35px;
+    }
+    .join_community_bg ul li:not(:last-child) {
+        margin-right: 20px;
+    }
+    .join_community_bg {
+        padding: 40px 0;
+    }
+    .footer .row > div {
+        margin: 20px 0;
+    }
+}

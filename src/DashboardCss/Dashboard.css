@@ -1,0 +1,2289 @@
+/* =================================================== Dashboard css Start =================================================== */
+
+/********************  Sidebar Css Start  *********************/
+.mobli_logo{
+  display: none;
+}
+.connect_pop_block .modal_Box_main  {
+  outline-color: unset !important;
+  outline-style: unset !important;
+  outline-width: unset !important;
+  box-shadow: unset !important;
+}
+
+.Dashboard_main_wrapper{
+    padding: 40px 50px 0px 358px;
+  }
+  .Sidebar_main_block{
+    background: #0C112B;
+    width: 328px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    z-index: 99;
+  }
+  .Sidebar_menu{
+    margin-bottom: 20px;
+  }
+  .Sidebar_block{
+    padding: 40px 50px 83px 50px;
+    height: 100%;
+  }
+  .Sidebar_logo{
+    margin-bottom: 60px;
+  }
+  .Sidebar_menu_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 110px);
+  }
+  .Sidebar_menu ul li{
+    padding: 1px;
+    border-radius: 6px;
+  }
+  .Sidebar_menu ul li a.active::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: linear-gradient(89.97deg, #05F1F1 0.03%, rgba(4, 15, 24, 0) 96.03%);
+    z-index: -1;
+    border-radius: 6px;
+    bottom: -1px;
+    right: -1px;
+}
+  .Sidebar_menu ul li a{
+    padding: 12px 28px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #0C112B;
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    letter-spacing: 1px;
+    }
+  .Sidebar_menu ul li a.active{
+    color: #AA14F0;
+  }
+  .Sidebar_menu ul li a.active svg path{
+    fill: #AA14F0;
+  }
+  .Sidebar_menu ul li a svg{
+    margin-right: 7px;
+  }
+  .Sidebar_menu ul li a .docs_mar{
+    margin-left: 6px;
+  }
+  .Sidebar_menu_btn a{
+    background: #0E1E34;
+    border-radius: 30px;
+    padding: 16.5px 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Sidebar_menu_btn a:hover{
+    color: #fff;
+  }
+  .Sidebar_menu_btn a img{
+    margin-right: 10px;
+  }
+  .app_button_none{
+    display: none;
+  }
+  /********************  Sidebar Css End  *********************/
+  
+  /********************  Header Css Start  *********************/
+  .header_main_block {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 50px;
+    width: calc(100% - 380px);
+  }
+  .app_page > .Dashboard_heading{
+    margin: 0 0 50px 25px;
+  }
+  .app_button a{
+    background: linear-gradient(180deg,#777,hsla(0,0%,96%,.8) 35.16%,#fff 61.46%,#9c9c9c 81.77%,#e3e3e3);
+    border-radius: 33px;
+    color: #040f18;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 34px;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all .4s ease;
+  }
+  .app_button a:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    color: #040f18;
+  }
+  .header_row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .Dashboard_heading{
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .header_buttons{
+    display: flex;
+    align-items: center;
+  }
+  .header_buttons > svg{
+    margin-right: 26px;
+    display: block;
+  }
+  .header_buttons > svg path{
+    transition: all 0.4s ease;
+  }
+  .header_buttons > svg:hover path{
+    fill: #AA14F0;
+  }
+  .modal_Box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 586px;
+    width: 100%;
+    padding: 1px;
+    background: rgb(41,171,226);
+    background: linear-gradient(359deg, rgba(41,171,226,1) 0%, rgba(117,117,117,0) 50%, rgba(41,171,226,1) 100%);
+    border-radius: 14px;
+  }
+  .modal_Box .ConnectPop_main{
+    background: #070B24;
+    border-radius: 14px;
+    padding: 50px 30px;
+    position: relative;
+  }
+  .ConnectPop_main .ConnectPop_Close_btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .ConnectPop_items_block .ConnectPop_Close_btn a svg path{
+    transition: all 0.5s ease;
+  }
+  .ConnectPop_items_block .ConnectPop_Close_btn a:hover svg path{
+    fill: #AA14F0;
+  }
+  .ConnectPop_logo{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .ConnectPop_items li:not(:last-child){
+    margin-bottom: 20px;
+  }
+  .ConnectPop_items li a{
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 60px;
+  }
+  .ConnectPop_items li a:hover span{
+    color: #AA14F0;
+  }
+  .ConnectPop_items li a span{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    transition: all 0.4s ease;
+  }
+  .select_option_block h4{
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .select_option_block .Copy_Address_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -15px;
+  }
+  .Copy_Address_row li{
+    width: 50%;
+    padding: 0 15px;
+  }
+  .Copy_Address_row li a{
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 13px 0px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .Copy_Address_row li a:hover span{
+    color: #AA14F0;
+  }
+  .Copy_Address_row li a svg path{
+    transition: all 0.4s ease;
+  }
+  .Copy_Address_row li a:hover svg path{
+    fill: #AA14F0;
+  }
+  .Copy_Address_row li a span{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.4s ease;
+  }
+  .disconnect_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .disconnect_row p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+  }
+  .disconnect_row p img{
+    margin: 0 10px;
+    max-width: 22px;
+  }
+  .disconnect_row p span{
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+  }
+  /********************  Header Css End  *********************/
+  
+  /********************  app page Css Start  *********************/
+  .chart_row{
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+  .chart_items{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .chart_items > div{
+    width: 50%;
+    padding: 0 15px;
+  }
+  .line_block{
+    background: rgba(36, 72, 101, 0.1);
+    backdrop-filter: blur(39.0333px);
+    border-radius: 6px;
+    padding: 75px 60px 50px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .line_block::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background: linear-gradient(120.79deg, #AA14F0 21.21%, #29ABE2 98.71%);
+    opacity: 0.2;
+    filter: blur(140px);
+    height: 535px;
+    width: 535px;
+    border-radius: 50%;
+  }
+  .top_tokens_heading .Dashboard_heading{
+    margin: 50px 0 40px 0;
+  }
+  .usde_row{
+    display: flex;
+    align-items: center;
+  }
+  .usde_row > img{
+    margin-right: 8px;
+  }
+  .usde_row .usde_text h5{
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+  }
+  .usde_row .usde_text span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    white-space: nowrap;
+}
+  .top_tokens_block .MuiTableCell-head.MuiTableCell-stickyHeader.MuiTableCell-sizeMedium{
+    background: rgba(36, 72, 101, 0.3);
+    backdrop-filter: blur(39.0333px);
+    color: #fff;
+    border: 0;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: Helvetica; 
+    padding: 18px 0 18px 60px;
+  }
+  .top_tokens_block .MuiPaper-rounded.MuiPaper-elevation1{
+    border-radius: 6px 6px 0px 0px;
+    border: 1px solid rgba(188, 140, 242, 0.2);
+    border-bottom: 0;
+    background: rgb(36 72 101 / 10%);
+    color: #fff;
+  }
+  .top_tokens_block .MuiTableCell-body.MuiTableCell-sizeMedium {
+    color: #fff;
+    border-bottom: 1px solid rgba(188, 140, 242, 0.2);
+    font-weight: 300;
+    font-size: 19px;
+    font-family: Helvetica; 
+    padding: 10px 60px;
+  }
+  .MuiTable-root.MuiTable-stickyHeader .MuiTableBody-root > tr:last-child > td{
+    border: 0;
+  }
+  .MuiTable-root.MuiTable-stickyHeader .MuiTableBody-root > tr:nth-child(odd) > td{
+    background: rgba(36, 72, 101, 0.1);
+    backdrop-filter: blur(39.0333px);
+  }
+  .MuiTable-root.MuiTable-stickyHeader .MuiTableBody-root > tr:nth-child(2) > td{
+    background: rgba(36, 72, 101, 0.15);
+    backdrop-filter: blur(39.0333px);
+  }
+  .table_arrow{
+    padding: 40px 0 27px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(36, 72, 101, 0.1);
+    border: 1px solid rgba(188, 140, 242, 0.2);
+    border-bottom: 0;
+    border-top: 0;
+  }
+  .table_arrow span{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 4px;
+  }
+  .table_arrow svg path{
+    transition: all 0.4s ease;
+  }
+  .table_arrow .hover_arrow{ 
+    position: relative;
+    cursor: pointer;
+  }
+  .table_arrow .hover_arrow img:last-child:hover {
+    opacity: 1;
+  }
+  .table_arrow .hover_arrow img:last-child{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 0;
+  }
+/********************  app page Css End  *********************/
+
+  /********************  Pool Page Css Start  *********************/
+.Pool_Page_main{
+  padding: 176px 194px 0 164px;
+  text-align: center;
+}
+.page_filter_block{
+  display: flex;
+  justify-content: center;
+}
+.page_filter_block ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #29ABE2;
+    border-radius: 33px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+.page_filter_block ul li:not(:last-child){
+  margin-right: 55px;
+}
+.page_filter_block ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 28px;
+  color: #fff;
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+.page_filter_block ul li a.active{
+  font-weight: 700;
+  padding: 7px 50px;
+  background: #29ABE2;
+}
+.box_main_border{
+  background: rgb(41,171,226);
+  background: linear-gradient(360deg, rgba(41,171,226,1) 0%, rgba(117,117,117,0) 50%, rgba(41,171,226,1) 100%);
+  padding: 1px;
+  border-radius: 14px;
+}
+.trade_now_block{
+  background: #070B24;
+  border-radius: 14px;
+  padding: 50px 30px;
+}
+.trade_now_row{
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+  padding-bottom: 50px;
+}
+.trade_now_row > div{
+  padding: 0 15px;
+  width: 33.33%;
+}
+.Market_Cap_row{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.Market_Cap_row > div{
+  width: 50%;
+}
+.Market_Cap_center_span{
+  width: 1px;
+  height: 60px;
+  background-color: #fff;
+  opacity: 0.1;
+  display: inline-block;
+  margin: 0 30px;
+}
+.Market_text_p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #C4C4C4;
+  margin-bottom: 10px;
+}
+.Market_Cap_text h5 span{
+  color: #C3C3C3;
+  font-weight: 300;
+}
+.center_logo_row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center_logo_row p{
+  margin: 0 10px 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #C4C4C4;
+}
+.center_logo_row span{
+  font-weight: 400;
+  font-size: 14px;
+  color: #F94144;
+  padding: 2px 18px;
+  border-radius: 4px;
+  background: rgb(255 0 0 / 20%);
+}
+.trade_btn_row{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.trade_btn_row .hero_btn:last-child{
+  margin-left: 20px;
+}
+.hero_off_btn{
+  background: linear-gradient(91.97deg, #AA14F0 0%, #29ABE2 100%),
+  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  padding: 1px;
+  border-radius: 33px;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+.hero_off_btn a{
+  background-color: #20233A;
+  border-radius: 33px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #FFFFFF;
+  padding: 9.5px 50px;
+  display: inline-block;
+}
+.hero_off_btn a:hover{
+  color: #fff;
+}
+.trade_btn_row .hero_off_btn a{
+  padding: 9.5px 44px;
+}
+.hero_off_btn:hover{
+  transform: translateY(-3px);
+}
+.mer_dai_row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mer_dai_row span{
+  display: block;
+  width: 403px;
+  height: 1px;
+  background: #FFFFFF;
+  opacity: 0.1;
+}
+.mer_dai_item_row{
+  display: flex;
+  align-items: center;
+}
+.mer_dai_item_row .mer_dai_icons img:first-child{
+  margin-right: 10px;
+}
+.mer_dai_item_text p{
+  margin: 0 22px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.mer_dai_item_text p:hover{
+  color: #AA14F0;
+}
+.mer_dai_item_text p:hover svg path{
+  transition: all 0.4s ease;
+}
+.mer_dai_item_text p:hover + svg path{
+  fill: #AA14F0;
+}
+.mer_dai_item_text{
+  display: flex;
+  align-items: center;
+}
+.mer_dai_drop_row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.mer_dai_drop_row .mer_dai_drop_text{
+  display: flex;
+  align-items: flex-start;
+}
+.mer_dai_drop_row .mer_dai_drop_text:last-child{
+  flex-direction: row-reverse;
+}
+.mer_dai_drop_row .mer_dai_drop_text:last-child .mer_text{
+  text-align: right;
+  margin: 0 20px 0 40px;
+}
+.mer_dai_drop_text .mer_text{
+  margin: 0 40px 0 20px;
+}
+.mer_dai_drop_text .hero_off_btn a{
+  font-weight: 400;
+  font-family: Helvetica; 
+  padding: 9.5px 31px;
+} 
+.mer_dai_drop_text .hero_off_btn a img{
+  margin-left: 10px;
+}
+.mer_text .Market_text_p{
+  margin: 0 0 4px 0;
+}
+.mer_text_h5{
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+.mer_text p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #C4C4C4;
+}
+.mer_dai_drop{
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.4s;
+}
+.Main_Pool_block{
+  margin-top: 120px;
+}
+.Main_Pool_block .box_main_border{
+  margin-bottom: 30px;
+}
+.Main_Pool_block > h2{
+  font-weight: 700;
+  font-size: 44px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.Main_Pool_block .trade_now_block{
+  padding: 30px;
+}
+.Withdraw_main_row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deposits_list_block{
+  display: flex;
+  align-items: center;
+}
+.coverage_ratio_logo{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.coverage_ratio_logo p{
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.ratio_common_p{
+  font-weight: 400;
+  font-size: 14px;
+  color: #C4C4C4;
+  display: flex;
+  align-items: center;
+}
+.ratio_common_p img{
+  margin-bottom: 1px;
+}
+.ratio_common_p span{
+  color: #fff;
+  font-weight: 500;
+  margin: 0 10px 0 3px;
+}
+.deposits_block .Market_text_p{
+  margin: 0;
+}
+.deposits_block .mer_text_h5{
+  margin-top: 6px;
+}
+.border_reward_box{
+  border-top: 1px solid rgb(255 255 255 / 10%);
+  margin: 20px 0;
+}
+.reward_row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reward_logo_sec{
+  display: flex;
+  align-items: center;
+}
+.logo_sec_row{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.logo_sec_row > span{
+  font-size: 14px;
+  font-weight: 700;
+}
+.mer_dai_icons img:first-child{
+  margin: 0 10px;
+}
+.rewards_all_btn {
+  background: linear-gradient(91.97deg, rgb(170 20 240) 0%, rgb(41 171 226) 100%), linear-gradient(0deg, rgb(255 255 255 / 10%), rgb(255 255 255 / 10%));
+  padding: 1px;
+  border-radius: 33px;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+.rewards_all_btn a{
+  background-color: rgb(32 35 58);
+  border-radius: 33px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+  color: rgb(255 255 255);
+  padding: 9.5px 50px;
+  display: inline-block;
+  font-family: MohrRounded_SemiBold;
+}
+.rewards_all_btn a:hover{
+  color: #fff;
+}
+.stock_filter_block{
+  margin-top: 12px;
+  display: flex;
+  overflow: hidden;
+  height: 0px;
+  transition: height ease 0.4s;
+}
+.rewards_all_btn a img ,
+.rewards_all_btn a svg{
+  margin-left: 8px;
+}
+.stock_filter_row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.stock_index{
+  width: 100%;
+}
+.stock_list_text_row{
+  display: flex;
+  align-items: center;
+}
+.stock_filter_list{
+  margin-right: 23px;
+}
+.stock_filter_list li{
+  padding-right: 7px;
+  border-right: 2px solid rgb(255 255 255 / 20%);
+}
+.stock_filter_list li.filter_active{
+  border-right: 2px solid #29ABE2;
+}
+.stock_filter_list li.filter_active a{
+  color: #29ABE2;
+}
+.stock_filter_list li a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #FFFFFF;
+}
+.Staked_box{
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 11px;
+  padding: 16px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 379px;
+  min-width: 379px;
+  width: 100%;
+}
+.Staked_list_p .Market_text_p{
+  margin: 0;
+}
+.Staked_list_p h6{
+  font-size: 16px;
+  line-height: 28px;
+  text-align: right;
+}
+.Staked_list_p h5{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+}
+.Stake_All_btns p{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.Stake_All_btns .All_btns{
+  background: linear-gradient(91.97deg, rgb(170 20 240) 0%, rgb(41 171 226) 100%), linear-gradient(0deg, rgb(255 255 255 / 10%), rgb(255 255 255 / 10%));
+  padding: 1px;
+  border-radius: 33px;
+  transition: all 0.4s ease;
+  display: block;
+  text-align: center;
+}
+.Stake_All_btns .All_btns a{
+  background-color: rgb(32 35 58);
+  border-radius: 33px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+  color: rgb(255 255 255);
+  padding: 9.5px 50px;
+  display: block;
+  font-family: MohrRounded_SemiBold;
+}
+.stock_filter_list.stock_filter_list_active + .stock_index .Stake_All_btns{
+  max-width: 345px;
+  width: 100%;
+}
+.stock_filter_list.stock_filter_list_active + .stock_index .Stake_All_btns .All_btns a{
+    background: transparent;
+}
+.Withdraw_main_row_row{
+  display: flex;
+  align-items: center;
+}
+.coverage_ratio_block{
+  margin-right: 56px;
+}
+  /********************  Pool Page Css End  *********************/
+
+/******************** Swap Page Css Start  *********************/
+  .swap_tokens_main{
+    max-width: 646px;
+    margin: 0 auto;
+  }
+  .trade_now_block > h4{
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .trade_now_max .trade_now_row_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 11px 30px;
+  }
+  .trade_now_row_row .from_text_block{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .trade_now_row_row .from_text_block input{
+    font-weight: 700;
+    font-size: 22px;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    max-width: 50%;
+    outline: none;
+    color: #fff;
+  }
+  .trade_now_row_row .from_text_block input::placeholder{
+    color: #fff;
+  }
+  .max_btn_main{
+    text-align: right;
+  }
+  .max_btn{
+    background: linear-gradient(91.97deg, rgb(170 20 240) 0%, rgb(41 171 226) 100%), linear-gradient(0deg, rgb(255 255 255 / 10%), rgb(255 255 255 / 10%));
+    padding: 1px;
+    border-radius: 33px;
+    transition: all 0.4s ease;
+    display: inline-block;  
+  }
+  .max_btn a{
+    background-color: rgb(32 35 58);
+    border-radius: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.56;
+    color: rgb(255 255 255);
+    padding: 10px 15px;
+    line-height: 1;
+    display: inline-block;
+  }
+  .max_btn a:hover{
+    color: #fff;
+  }
+  .max_icon_text{
+    margin-top: 12px;
+  }
+  .max_icon_text img:first-child{
+    width: 30px;
+  }
+  .max_icon_text span{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 23px 0 10px;
+    color: rgb(255 255 255);
+    cursor: pointer;
+  }
+  .after_fee_show_ul{
+    margin: 17px 0 13px 0;
+  }
+  .after_fee_show_ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .after_fee_show_ul li p,
+  .after_fee_show_ul li span{
+    margin: 0 0 4px 0;
+    color: #fff;
+  }
+  .after_fee_bottom_btn{
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .after_fee_bottom_btn > img{
+    margin: 0 30px;
+    transform: rotate(272deg);
+  }
+  .after_fee_bottom_btn p{
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .after_fee_bottom_btn p img{
+    margin-right: 10px;
+    width: 30px;
+  }
+  .swap_tokens_main .box_main_border .trade_now_block .hero_btn {
+    text-align: center;
+    max-width: 338px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .swap_tokens_main .box_main_border .trade_now_block .hero_btn a{
+    width: 100%;
+    font-family: Helvetica; 
+  }
+  .dashboard_footer{
+    padding-top: 120px;
+  }
+  .copy_right_block{
+    padding: 20px 0;
+    background: linear-gradient(360deg, rgba(4, 7, 24, 0) 0%, rgba(41, 171, 226, 0.09) 100%);
+    text-align: center;
+  }
+  .copy_right_block > p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #C4C4C4;
+  }
+  .copy_right_block > p a{
+    color: #C4C4C4;
+    transition: all 0.4s ease;
+  }
+  .copy_right_block > p a:hover{
+    color: #AA14F0;
+  }
+  .swap_tokens_list > h4,
+  .Confirm_Swap_Pop_block > h4{
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+  .swap_tokens_list > ul{
+    margin-top: 30px;
+  }
+  .swap_tokens_list > ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+  .swap_tokens_list > ul li:hover{
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+  }
+  .swap_tokens_list > ul li p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  .swap_tokens_list > ul li p img{
+    margin-right: 20px;
+    width: 40px;
+  }
+  .swap_tokens_list > ul li span{
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .Confirm_Swap_Pop_block h4 + .Confirm_swap_list{
+    margin-bottom: 30px;
+  }
+  .Confirm_swap_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 15px 30px;
+  }
+  .Confirm_swap_list input{
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    width: 100%;
+    max-width: 20%;
+    border: 0;
+    outline: none;
+    color: #fff;
+  }
+  .Confirm_swap_list input::placeholder{
+    color: #fff;
+  }
+  .Confirm_swap_list p{
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .Confirm_swap_list p img{
+    margin-left: 12px;
+    width: 30px;
+  }
+  .Confirm_Swap_pop_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.approve_button.hero_btn img{
+  width: 16px;
+}
+.approve_button.hero_btn a{
+  font-family: Helvetica;
+  padding: 10px 34px;
+}
+.Confirm_Swap_pop_btn > div{
+  width: 100%;
+}
+.Confirm_Swap_pop_btn .hero_off_btn{
+  max-width: 248px;
+  width: 100%;
+  text-align: center;
+}
+.Confirm_Swap_pop_btn .hero_off_btn a{
+  display: block;
+}
+.Confirm_Swap_Pop_block > h4{
+  margin-bottom: 30px;
+}
+.box_Swap_icon {
+  text-align: center;
+  margin: 20px 0;
+}
+/******************** Swap Page Css End  *********************/
+
+/******************** VeMercury Page Css Start  *********************/
+.Vemercury_page_main .box_main_border{
+  max-width: 730px;
+  margin: 0 auto;
+}
+.Vemercury_box_logo{
+  text-align: center;
+}
+.Vemercury_box_logo h4{
+  margin-top: 28px;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.total_vemercury_supply_box{
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 40px 20px;
+  margin: 30px 0 54px 0;
+  display: flex;
+  align-items: center;
+}
+.total_vemercury_supply_box > div{
+  width: 33.33%;
+  text-align: center;
+  position: relative;
+}
+.total_vemercury_supply_box > div:not(:first-child)::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #FFFFFF;
+  opacity: 0.1;
+  width: 1px;
+  height: 60px;
+}
+.total_vemercury_text p{
+  margin-top: 6px;
+  font-weight: 600;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total_vemercury_text p span {
+  font-weight: 300;
+  color: #C4C4C4;
+  font-size: 20px;
+  margin-left: 6px;
+}
+.total_vemercury_text p img{
+  margin-left: 4px;
+}
+.vemercury_boosts_border p{
+  font-weight: 400;
+  font-size: 18px;
+}
+.vemercury_boosts_border span{
+  font-weight: 400;
+  font-size: 18px;
+  color: #29ABE2;
+  margin-left: 7px;
+}
+.vemercury_boosts_border span p{
+  color: #fff;
+  display: inline-block;
+}
+.vemercury_boosts_border{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Vemercury_page_main .trade_now_block .hero_btn{
+  text-align: center;
+  max-width: 338px;
+  margin: 30px auto 0 auto;
+}
+.Vemercury_page_main .trade_now_block .hero_btn a{
+  width: 100%;
+  font-family: Helvetica;
+}
+.Confirm_Stack_main{
+  margin-top: 40px; 
+}
+.Confirm_Stack_P_row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Confirm_Stack_P_row span{
+  color: #fff;
+}
+.Confirm_Stack_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 12px 30px;
+  margin-bottom: 26px;
+}
+.Confirm_Stack_box > input{
+  width: 100%;
+  max-width: 20%;
+  color: #fff;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+}
+.Confirm_Stack_box > input::placeholder{
+  color: #fff;
+}
+.Confirm_Stack_lists > li{
+  display: flex;
+  justify-content: space-between;
+}
+.Confirm_Stack_lists > li p,
+.Confirm_Stack_lists > li span{
+  color: #fff;
+  margin: 0 0 7px 0;
+}
+.Confirm_Swap_pop_btn{
+  margin-top: 30px;
+}
+.Confirm_Swap_pop_btn .hero_btn{
+  max-width: 248px;
+  width: 100%;
+  text-align: center;
+}
+.Confirm_Swap_pop_btn .approve_button.hero_btn a{
+  display: block;
+}
+.Confirm_btn_show{
+  max-width: 338px;
+  margin: 0 auto;
+}
+.Confirm_btn_show .Confirm_show_off_btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.Confirm_btn_show .Confirm_show_off_btn .hero_off_btn a{
+  font-family: Helvetica; 
+  padding: 9.5px 44px;
+}
+.Confirm_show_off_btn > div:last-child .hero_off_btn a {
+  padding: 9.5px 54px;
+}
+/******************** VeMercury Page Css End  *********************/
+
+/******************** Settings pop Css Start  *********************/
+.settings_span{
+  font-size: 16px;
+  font-family: MohrRounded_Regular;
+  color: #C4C4C4;
+}
+.settings_p{
+  font-size: 20px;
+  margin: 0px 0 20px 0;
+  font-family: MohrRounded_Regular;
+}
+.Swap_after_fee ul{
+  display: flex;
+}
+.Swap_after_fee label{
+  font-size: 17px;
+  font-family: MohrRounded_Regular;
+  padding: 0 30px 0 30px;
+  color: #fff;
+}
+.Swap_after_fee ul li{
+  position: relative;
+}
+.Swap_after_fee ul li [type="radio"]:checked,
+.Swap_after_fee ul li [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.Swap_after_fee ul li [type="radio"]:checked + label:before,
+.Swap_after_fee ul li [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #070B24;
+}
+.Swap_after_fee ul li [type="radio"]:checked + label:after,
+.Swap_after_fee ul li [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #29ABE2;
+    position: absolute;
+    top: 7px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.Settings_Pop_main .Swap_after_fee:not(:first-child){
+  margin-top: 40px;
+}
+.Swap_after_fee ul li [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.Swap_after_fee ul li [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.settings_p{
+  font-size: 20px;
+  font-family: MohrRounded_Regular; 
+  margin-bottom: 20px;
+}
+.settings_p img{
+  margin-left: 5px;
+}
+.settings_span_padding {
+  padding: 2px 11px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  margin-right: 8px;
+  line-height: 1;
+}
+.settings_padding_row .settings_span_padding{
+  padding: 5px 11px;
+  outline: none;
+  border: 0;
+  width: 100%;
+  max-width: 50px;
+  color: #fff;
+}
+.settings_padding_row .settings_span_padding:focus::placeholder{
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.settings_padding_row .settings_span_padding::placeholder{
+  color: #fff;
+}
+.settings_padding_row{
+  display: flex;
+  align-items: center;
+  font-family: MohrRounded_Regular; 
+  font-size: 18px;
+}
+/******************** Settings pop Css End  *********************/
+
+  
+/* =================================================== Dashboard css End =================================================== */
+/* 
+font-family: Helvetica; 
+font-family: Helvetica_Bold;
+font-family: MohrRounded_SemiBold;
+font-family: MohrRounded_Regular;
+*/
+
+/* =================================================== Dashboard responsive css Start =================================================== */
+@media (max-width: 1880px){
+  .Pool_Page_main {
+    padding: 150px 150px 0 150px;
+  }
+}
+@media (max-width: 1800px){
+  .trade_btn_row .hero_off_btn a {
+    padding: 9.5px 35px;
+  }
+  .Pool_Page_main {
+    padding: 150px 90px 0 90px;
+  }
+}
+@media (max-width: 1700px){
+    .line_block {
+        padding: 50px;
+    }
+    .Main_Pool_block > h2 {
+      font-size: 40px;
+      margin-bottom: 30px;
+  }
+  .mer_dai_row span {
+    width: 343px;
+  }
+  .trade_now_block {
+    padding: 30px 20px;
+  }
+  .Market_Cap_center_span {
+    margin: 0 20px;
+  }
+  .trade_btn_row .hero_off_btn a {
+    padding: 9.5px 25px;
+  }
+  .coverage_ratio_block {
+    margin-right: 25px;
+  }
+} 
+@media (max-width: 1600px){
+    .line_block::before {
+        height: 335px;
+    }
+    .line_block {
+        padding: 30px;
+    }
+    .Pool_Page_main {
+      padding: 140px 0px 0 0px;
+    }
+    .coverage_ratio_block {
+      margin-right: 40px;
+    }
+}
+@media (max-width: 1440px){
+    .Dashboard_main_wrapper {
+      padding: 20px 15px 0px 343px;
+    }
+    .Sidebar_block {
+        padding: 40px 50px 50px 40px;
+    }
+    .line_block::before {
+        height: 285px;
+        width: 100%;
+    }
+    .line_block {
+        padding: 20px;
+    }
+    .usde_row .usde_text h5 {
+        font-size: 17px;
+    }
+    .MuiPaper-root.MuiPaper-elevation .MuiTableContainer-root::-webkit-scrollbar{
+        height: 2px;
+    }
+    .MuiPaper-root.MuiPaper-elevation .MuiTableContainer-root::-webkit-scrollbar-track{
+        background: #202334;
+        border-radius: 1px;
+    }
+    .MuiPaper-root.MuiPaper-elevation .MuiTableContainer-root::-webkit-scrollbar-thumb{
+    	background:#29ABE2;
+    	border-radius: 10px;
+    }
+    .header_main_block {
+      margin-right: 15px;
+    }
+    .app_page > .Dashboard_heading {
+      margin: 20px 0 40px 0px;
+    }
+    .trade_now_row{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .trade_now_row > div{
+      width: 50%;
+    }
+    .trade_btn_row{
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .mer_dai_row span {
+      width: 293px;
+    }
+    .mer_dai_drop_text .mer_text {
+      margin: 0 20px 0 20px;
+    }
+    .Withdraw_main_row{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .Withdraw_main_row > div{
+      width: 50%;
+    }
+    .reward_row{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .reward_row > div{
+      width: 50%;
+      margin-top: 10px;
+    }
+    .reward_row > div:nth-child(even){
+      display: flex;
+      justify-content: flex-end;
+    }
+    .Staked_box {
+      max-width: 350px;
+      min-width: 350px;
+    }
+    .mer_text_h5 {
+      font-size: 20px;
+    }
+    .Market_text_p {
+      font-size: 15px;
+    }
+    .Withdraw_main_row > div{
+      width: 100%;
+      justify-content: space-between;
+    }
+}
+@media (max-width: 1280px){
+    .MuiPaper-root.MuiPaper-elevation .MuiTableContainer-root{
+        padding-bottom: 30px;
+    }
+    .line_block {
+        padding: 15px;
+    }
+    .table_arrow {
+        background: transparent;
+        border: 0px solid rgb(188 140 242 / 20%);
+    }
+    .top_tokens_block .MuiPaper-rounded.MuiPaper-elevation1 {
+        border-radius: 6px;
+        border: 1px solid rgba(188, 140, 242, 0.2);
+        padding: 0  0 25px 0;
+    }
+    .mer_dai_row span {
+      width: 273px;
+    }
+    .Market_text_p {
+      font-size: 14px;
+    }
+    .Staked_box {
+      max-width: 300px;
+      min-width: 300px;
+      padding: 15px;
+    }
+    .Main_Pool_block > h2 {
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+    .Main_Pool_block {
+      margin-top: 60px;
+    }
+}
+@media (max-width: 1199px){
+    .chart_items {
+        flex-wrap: wrap;
+    }
+    .chart_items > div {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .Dashboard_heading{
+        font-size: 29px;
+    }
+    .app_page > .Dashboard_heading {
+      margin: 20px 0 30px 0px;
+    }
+    .page_filter_block ul li a.active {
+      padding: 7px 40px;
+    }
+    .page_filter_block ul {
+      max-width: 480px;
+      margin-bottom: 30px;
+    }
+    .trade_now_row > div {
+      width: 100%;
+    }
+    .center_logo_row{
+      margin: 30px 0;
+    }
+    .trade_btn_row{
+      margin: 0;
+    }
+    .mer_dai_row span {
+      width: 27%;
+    }
+    .Market_Cap_row .Market_Cap_text:last-child{
+      text-align: right;
+    }
+    .mer_dai_drop_row{
+      flex-wrap: wrap;
+    }
+    .mer_dai_drop_row .mer_dai_drop_text:last-child {
+      flex-direction: unset;
+      margin-top: 20px;
+    }
+    .Withdraw_main_row > div {
+      width: 100%;
+    }
+    .deposits_list_block{
+      margin: 30px 0;
+    }
+    .coverage_ratio_block {
+      margin-right: 0;
+    }
+    .Withdraw_main_row_row {
+      flex-wrap: wrap;
+    }
+    .Withdraw_main_row_row > div{
+      width: 50%;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .Withdraw_main_row_row > span{
+      display: none;
+    }
+    .Withdraw_main_row_row > div:nth-child(even):before{
+      content: '';
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 80%;
+      width: 2px;
+      background-color: rgb(255 255 255);
+      opacity: 0.1;
+    }
+    .Withdraw_main_row_row > div.deposits_block_line:before{
+      display: none;
+    }
+    .Staked_box {
+      max-width: 250px;
+      min-width: 250px;
+      margin-right: 20px;
+    }
+    .mer_dai_drop_row > div{
+      width: 100%;
+    }
+    .mer_dai_drop_row .mer_dai_drop_text:last-child .mer_text {
+      text-align: left;
+      margin: 0 20px 0 20px;
+    }
+    .Withdraw_main_row_row > div:nth-child(2),
+    .Withdraw_main_row_row > div:nth-child(6){
+        text-align: right;
+    }
+}
+@media (max-width: 991px){
+  .header_main_block {
+    width: 100%;
+    padding: 33px 15px;
+    margin: 0;
+  }
+  .header_row{
+    justify-content: space-between;
+  }
+  .mobli_logo{
+    display: block;
+  }
+    .app_button_none{
+      display: block;
+      margin: 30px 0;
+    }
+    .app_page > .Dashboard_heading {
+      margin: 13px 0 10px 0px;
+    }
+    .menu_toggle_btn_1 {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        width: auto;
+        z-index: 102;
+    }
+    .menu_toggle_btn_1 span {
+        background-color: #fff;
+        height: 2px;
+        margin-bottom: 5px;
+        transition: all .5s ease 0s;
+        width: 18.39px;
+    }
+    .menu_toggle_btn_1 span:first-child {
+        margin-left: auto;
+        margin-top: 5px;
+        width: 10px;
+    }
+    .open_menu .menu_toggle_btn_1 span:first-child {
+        transform: rotate(45deg) translateY(1px) translateX(1px);
+        width: 18.39px; 
+    }
+    .open_menu .menu_toggle_btn_1 span:nth-child(2) {
+        opacity: 0;
+    }
+    .open_menu .menu_toggle_btn_1 span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-2px) translateX(2px);
+    }
+    .open_menu .menu_toggle_btn_1 span {
+        background-color: #fff;
+        margin-bottom: 0;
+    }
+    .header_row .app_button{
+        display: none;
+    }
+    .header_buttons > svg {
+        margin-right: 30px;
+    }
+    .open_menu + .Sidebar_main_block {
+      left: 0%;
+      z-index: 111111;
+    }
+    .cm_overflow .model_layer{
+        content: '';
+       position: fixed;
+       left: 0;
+       top: 0;
+       background-color: #000;
+       opacity: 0.5;
+       width: 100%;
+       height: 100%;
+       z-index: 1;
+       transition: all 0.5s ease;
+    }
+    .Sidebar_main_block {
+        left: -50%;
+        transition: all 0.5s ease;
+    }
+    .Dashboard_main_wrapper {
+        padding: 15px;
+    }
+    .header .header_block {
+      margin-left: 0px;
+    }
+    .Confirm_Swap_pop_btn .hero_off_btn a {
+      padding: 7px 81px;
+    }
+    .app_page{
+      padding-top: 100px;
+    }
+}
+@media (max-width: 767px){
+  .app_page{
+    padding-top: 80px;
+  }
+  .Sidebar_main_block {
+    left: -60%;
+  }
+  .stock_filter_row{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .stock_filter_row > div{
+    width: 100%;
+    justify-content: center;
+  }
+  .Staked_box {
+    max-width: 100%;
+    min-width: 100%;
+    margin-right: 0px;
+  }
+  .Stake_All_btns{
+    margin-top: 20px;
+  }
+  .stock_filter_block {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .stock_filter_list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .stock_filter_list li.filter_active {
+    border-right: 0px solid #29ABE2;
+    border-bottom: 2px solid #29ABE2;
+  }
+  .stock_filter_list li {
+    border-right: 0px solid rgb(255 255 255 / 20%);
+    border-bottom: 2px solid rgb(255 255 255 / 20%);
+  }
+  .stock_filter_list li:not(:last-child){
+    padding-right: 15px;
+  }
+  .logo_sec_row > span {
+    font-size: 13px;
+  }
+  .ratio_common_p{
+    font-size: 12px;
+  }
+  .ratio_common_p span {
+    margin: 0 4px 0 3px;
+  }
+  .mer_dai_icons img {
+    margin: 0;
+    width: 23px;
+  }
+  .Pool_Page_main {
+    padding: 110px 0px 0 0px;
+  }
+  .page_filter_block ul li:not(:last-child) {
+    margin-right: 45px;
+  }
+  .page_filter_block ul {
+    max-width: 450px;
+  }
+  .mer_dai_icons img:first-child {
+    margin: 0 5px;
+  }
+  .responsive_pop{
+    max-width: 545px;
+  }
+  .Confirm_Swap_pop_btn {
+    flex-wrap: wrap;
+  }
+  .Confirm_Swap_pop_btn > div{
+    width: 100%;  
+  }
+  .Confirm_Swap_pop_btn .hero_off_btn{
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .Confirm_Swap_pop_btn .hero_off_btn a{
+    display: block;
+  }
+  .Confirm_Swap_pop_btn .approve_button.hero_btn a{
+    width: 100%;
+    text-align: center;
+  }
+  .Confirm_Swap_pop_btn .hero_off_btn {
+    max-width: 100%;
+  }
+  .Confirm_Swap_pop_btn .hero_btn {
+    max-width: 100%;
+  }
+  .total_vemercury_supply_box{
+    flex-wrap: wrap;
+    margin: 30px 0 35px 0;
+  }
+  .total_vemercury_supply_box > .total_vemercury_text{
+    width: 100%;
+  }
+  .total_vemercury_supply_box > .total_vemercury_text:not(:first-child){
+    padding-top: 32px;
+  }
+  .total_vemercury_supply_box > div:not(:first-child)::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 16px;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    opacity: 0.1;
+    width: 30%;
+    height: 1px;
+  }
+}
+@media (max-width: 575px){
+  .mobli_logo {
+    max-width: 50%;
+  }
+  .app_page{
+    padding-top: 80px;
+  }
+  .page_filter_block ul li:not(:last-child) {
+    margin-right: 48px;
+  }
+  .Sidebar_main_block {
+    width: 100%;
+    left: -100%;
+  }
+  .Sidebar_logo {
+    max-width: 40%;
+    margin-left: 35px;
+  }
+  .Main_Pool_block > h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .Pool_Page_main {
+    padding: 80px 0px 0 0px;
+  }
+  .page_filter_block ul li a.active {
+    padding: 5px 30px;
+    min-height: 40px;
+  }
+  .mer_dai_row span {
+    width: 20%;
+  }
+  .ratio_common_p{
+    flex-wrap: wrap;
+  }
+  .reward_row > div {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .reward_row > div:nth-child(even) {
+    justify-content: flex-start;
+  }
+  .rewards_all_btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .rewards_all_btn a{
+   display: block;
+  }
+  .responsive_pop {
+    max-width: 420px;
+  }
+  .ConnectPop_items li a img{
+    width: 30px;
+  }
+  .ConnectPop_items li a{
+    padding: 0 15px;
+  }
+  .select_option_block .Copy_Address_row {
+    flex-wrap: wrap;
+  }
+  .Copy_Address_row li {
+    width: 100%;
+    max-width: 248px;
+    margin: 0 auto;
+  }
+  .Copy_Address_row li:first-child{
+    margin-bottom: 10px;
+  }
+  .disconnect_row{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .disconnect_row p{
+    margin-bottom: 20px;
+  }
+  .swap_tokens_list > ul li{
+    padding: 10px;
+  }
+  .swap_tokens_list > ul li p img {
+    margin-right: 10px;
+    width: 25px;
+  }
+  .Confirm_Stack_box {
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  }
+  .swap_tokens_list > h4, .Confirm_Swap_Pop_block > h4 {
+    font-size: 20px;
+  }
+  .Confirm_Swap_pop_btn {
+    margin-top: 20px;
+  }
+  .Confirm_swap_list {
+    border-radius: 10px;
+    padding: 13px 15px;
+  } 
+  .dashboard_footer {
+    padding-top: 60px;
+  }
+  .trade_now_max .trade_now_row_row .from_text_block input {
+    font-size: 17px;
+  }
+  .vemercury_boosts_border{
+    flex-wrap: wrap;
+  }
+  .vemercury_boosts_border > p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .total_vemercury_supply_box {
+    flex-wrap: wrap;
+    margin: 25px 0 25px 0;
+    padding: 30px 20px;
+  }
+  .total_vemercury_text p {
+    font-size: 19px;
+  }
+  .Vemercury_box_logo h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 450px){
+  .line_block {
+    padding: 10px;
+  }
+  .Dashboard_heading {
+    font-size: 27px;
+  }
+  .top_tokens_block .MuiTableCell-head.MuiTableCell-stickyHeader.MuiTableCell-sizeMedium{
+    min-width: 110px !important;
+  }
+  .top_tokens_heading .Dashboard_heading {
+    margin: 20px 0 40px 0;
+  }
+  .table_arrow {
+    padding: 30px 0 0 0;
+  }
+  .line_block::before {
+    height: 100%;
+    width: 100%;
+  }
+  .page_filter_block ul li a.active {
+    padding: 5px 20px;
+    min-height: 30px;
+  }
+  .page_filter_block ul li a{
+    font-size: 17px;
+  }
+  .page_filter_block ul {
+    max-width: 100%;
+  }
+  .page_filter_block ul {
+    padding: 5px;
+  }
+  .mer_dai_row span {
+    width: 15%;
+  }
+  .trade_btn_row{
+    flex-wrap: wrap;
+  }
+  .trade_btn_row  .hero_off_btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .trade_btn_row .hero_off_btn a{
+    display: block;
+  }
+  .trade_btn_row .hero_btn:last-child {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .trade_btn_row .hero_btn:last-child{
+    text-align: center;
+    width: 100%;
+  }
+  .trade_btn_row .hero_btn:last-child a{
+    display: block;
+  }
+  .mer_dai_drop_row .mer_dai_drop_text{
+    flex-wrap: wrap;
+  }
+  .mer_dai_drop_text .hero_off_btn{
+    margin-top: 10px;
+  }
+  .Pool_Page_main {
+    padding: 70px 0px 0 0px;
+  }
+  .responsive_pop {
+    max-width: 370px;
+  }
+  .select_option_block h4{
+    font-size: 20px;
+  }
+  .swap_tokens_list > h4, .Confirm_Swap_Pop_block > h4 {
+    font-size: 20px;
+  }
+  .modal_Box .ConnectPop_main {
+    padding: 50px 15px;
+  }
+  .swap_tokens_list > ul {
+    margin-top: 20px;
+  }
+  .Market_text_p {
+    font-size: 13px;
+  }
+  .Confirm_swap_list input{
+    font-size: 16px;
+  }
+  .Confirm_swap_list p {
+    font-size: 16px;
+  }
+  .Confirm_Swap_Pop_block h4 + .Confirm_swap_list {
+    margin-bottom: 20px;
+  }
+  .max_icon_text span {
+    margin: 0 15px 0 10px;
+  }
+  .after_fee_bottom_btn > img {
+    margin: 0 20px;
+  }
+  .page_filter_block ul li:not(:last-child) {
+    margin-right: 44px;
+  }
+}
+@media (max-width: 400px){
+  .line_block {
+    padding: 5px;
+  }
+  .Dashboard_heading {
+    font-size: 24px;  
+  }
+  .top_tokens_heading .Dashboard_heading {
+    margin: 10px 0 25px 0;
+  }
+  header {
+    padding-top: 20px;
+  }
+  .app_page > .Dashboard_heading {
+    margin: 3px 0 10px 0px;
+  }
+  .page_filter_block ul {
+    padding: 5px 10px;
+  }
+  .page_filter_block ul li:not(:last-child) {
+    margin-right: 20px;
+  }
+  .page_filter_block ul li a {
+    font-size: 16px;
+  }
+  .mer_text_h5 {
+    font-size: 18px;
+  }
+  .Market_text_p {
+    margin-bottom: 5px;
+  }
+  .Main_Pool_block .trade_now_block {
+    padding: 20px;
+  }
+  .Staked_list_p h5 {
+    font-size: 18px;
+  }
+  .Staked_list_p h6 {
+    font-size: 14px;
+  }
+  .Stake_All_btns {
+    margin-top: 13px;
+  }
+  .Stake_All_btns p {
+    font-size: 12px;
+  }
+  .reward_row > div {
+    margin-top: 10px;
+  }
+  .Main_Pool_block > h2 {
+    font-size: 27px;
+  }
+  .trade_now_row {
+    padding-bottom: 30px;
+  }
+  .responsive_pop {
+    max-width: 290px;
+  }
+  .modal_Box .ConnectPop_main {
+    padding: 40px 15px;
+  }
+  .ConnectPop_items li a span {
+    font-size: 17px;
+  }
+  .disconnect_row p span {
+    font-size: 16px;
+  }
+  .Copy_Address_row li a span{
+    font-size: 16px;
+  }
+  .swap_tokens_list > ul li p img {
+    margin-right: 5px;
+  }
+  .swap_tokens_list > ul li p {
+    font-size: 16px;
+  }
+  .Market_text_p {
+    font-size: 12px;
+  }
+  .Confirm_Stack_box .max_btn a {
+    font-size: 14px;
+    padding: 3px 12px;
+  } 
+  .swap_tokens_list > h4, .Confirm_Swap_Pop_block > h4 {
+    font-size: 18px;
+  }
+  .Confirm_swap_list input {
+    font-size: 14px;
+  }
+  .Confirm_swap_list p img {
+    margin-left: 0px;
+    width: 20px;
+  }
+  .Confirm_swap_list {
+    border-radius: 10px;
+    padding: 12px 8px;
+  }
+  .Confirm_swap_list p {
+    font-size: 14px;
+  }
+  .after_fee_show_ul .Market_text_p {
+    font-size: 11px;
+  }
+  .Confirm_Swap_Pop_block > h4 {
+    margin-bottom: 20px;
+  }
+  .swap_tokens_list > ul li span {
+    font-size: 14px;
+  }
+  .max_icon_text span{
+    font-size: 17px;
+  }
+  .trade_now_row_row .from_text_block p {
+    font-size: 20px;
+    margin: 0;
+  }
+  .trade_now_max .trade_now_row_row {
+    padding: 11px 10px;
+    border-radius: 9px;
+  }
+  .trade_now_block > h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .max_icon_text span {
+    margin: 0 10px 0 10px;
+  }
+  .dashboard_footer {
+    padding-top: 40px;
+  }
+  .trade_now_max .trade_now_row_row .from_text_block p{
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    max-height: 4.2em;
+    max-width: 80px;
+  }
+  .max_icon_text img:first-child {
+    width: 20px;
+  }
+  .after_fee_bottom_btn p img {
+    width: 20px;
+  }
+  .from_text_block > .Market_text_p{
+    margin-bottom: 27px;
+    display: block;
+  }
+  .Vemercury_box_logo h4 {
+    font-size: 16px;
+  }
+  .total_vemercury_text p {
+    font-size: 17px;
+  }
+  .total_vemercury_supply_box > .total_vemercury_text:not(:first-child) {
+    padding-top: 22px;
+  }
+  .total_vemercury_supply_box > div:not(:first-child)::after{
+    top: 11px;
+  }
+  .vemercury_boosts_border p {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .vemercury_boosts_border span {
+    margin-left: 0;
+    font-size: 15px;
+  }
+  .total_vemercury_supply_box {
+    padding: 20px 10px;
+  }
+  .settings_p {
+    font-size: 16px;
+  }
+  .Swap_after_fee label {
+    font-size: 15px;
+    padding: 0 15px 0 25px;
+  }
+  .settings_padding_row {
+    font-size: 16px;
+  }
+}
+@media (max-width: 367px){
+  .Sidebar_block {
+    padding: 40px 40px 30px 20px;
+  }
+  .Sidebar_logo a {
+    max-width: 80%;
+    display: block;
+  }
+  header {
+    padding-top: 0;
+  }
+  .line_block {
+    padding: 0;
+  }
+  .Pool_Page_main {
+    padding: 60px 0px 0 0px;
+  }
+  .page_filter_block ul li:not(:last-child) {
+    margin-right: 15px;
+  }
+  .page_filter_block ul li a.active {
+    padding: 3px 15px;
+    min-height: 25px;
+  }
+  .page_filter_block ul {
+    padding: 3px 10px;
+  }
+  .page_filter_block ul {
+    margin-bottom: 25px;
+  }
+  .mer_text_h5 {
+    font-size: 17px;
+  }
+  .Market_text_p {
+    font-size: 12px;
+  }
+  .center_logo_row p {
+    margin: 3px 10px 0 10px;
+  }
+  .mer_dai_item_text p {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  .coverage_ratio_logo p {
+    margin-left: 6px;
+    font-size: 16px;
+  }
+  .trade_btn_row .hero_off_btn a {
+    padding: 8px 25px;
+  }
+  .border_reward_box {
+    margin: 20px 0 5px 0;
+  }
+  .Staked_box {
+    padding: 10px;
+  }
+}
+/* =================================================== Dashboard responsive css End =================================================== */

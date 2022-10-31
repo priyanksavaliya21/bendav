@@ -1,0 +1,717 @@
+/*********************  Default-CSS  *********************/
+@font-face {
+  font-family: Helvetica;
+  src: url(../src/assets/Fonts/Helvetica.ttf);
+}
+@font-face {
+  font-family: Helvetica_Bold;
+  src: url(../src/assets/Fonts/Helvetica-Bold.ttf);
+}
+@font-face {
+  font-family: MohrRounded_SemiBold;
+  src: url(../src/assets/Fonts/MohrRounded-SemiBold.ttf);
+}
+@font-face {
+  font-family: MohrRounded_Regular;
+  src: url(../src/assets/Fonts/MohrRounded-Regular.ttf);
+}
+:root {
+  scroll-behavior: unset;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+body {
+  margin: 0;
+  font-family: Helvetica; 
+  color: #fff;
+  background-color: #040718;
+}
+a, span, a:hover, a:active, button {
+  text-decoration: none;
+}
+a, div a:hover, div a:active, div a:focus, button {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+p {
+  margin: 0;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0;
+}
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.cm_overflow, .cm-overflow body, .modal-open {
+  overflow: hidden;
+  touch-action: none;
+}
+.modal-open {
+  height: 100%;
+  width: 100%;
+}
+.row {
+  margin: 0 -15px;
+}
+.container {
+  padding: 0 15px;
+}
+.col, [class*=col-] {
+  padding: 0 15px;
+}
+/*********************  Default-CSS close  *********************/
+
+/********************  Header Css Start  *********************/
+.main-wrapper {
+  overflow: hidden;
+}
+header {
+  width: 100%;
+  padding-top: 33px;
+  z-index: 999;
+}
+header.fixed {
+  padding: 6px 0;
+}
+.Rectangle_1_copy {
+  height: 80px;
+}
+.in_header_wrapper {
+  padding: 0 0;
+}
+.in_header_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu_block ul li {
+  display: inline-block;
+}
+.menu_block ul li a{
+  position: relative;
+}
+.menu_block ul li:not(:last-child) {
+  margin-right: 30px;
+}
+.menu_block ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.menu_block ul li a:hover{
+  color:#AA14F0;
+}
+.menu_toggle_btn {
+  display: none;
+}
+.menu_list ul li:last-child a{
+  display: inline-block;
+  background: linear-gradient(180deg, #777777 0%, rgba(245, 245, 245, 0.8) 35.16%, #FFFFFF 61.46%, #9C9C9C 81.77%, #E3E3E3 100%);
+  border-radius: 33px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #040F18;
+  padding: 12px 34px;
+  transition: all 0.4s ease;
+  transform: translateY(0);
+}
+.menu_list ul li:last-child a:hover{
+  transform: translateY(-3px);
+}
+.logo_hold a{
+  display: inline-block;
+}
+/********************  Mobile Menu Css Start *********************/
+.menu_toggle_btn span:nth-child(1) {
+  margin-top: 5px;
+  width: 10px;
+  margin-left: auto;
+}
+.menu_toggle_btn span {
+  width: 18.39px;
+  height: 2px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.open_menu .menu_toggle_btn span:nth-child(1) {
+  transform: rotate(39deg) translateY(3px) translateX(5px);
+}
+.open_menu .menu_toggle_btn span {
+  background-color: #2B2A35;
+}
+.open_menu .menu_toggle_btn span:nth-child(2) {
+  opacity: 0;
+}
+.open_menu .menu_toggle_btn span:nth-child(3) {
+  transform: rotate(-41deg) translateY(-5px) translateX(7px);
+}
+/********************  Mobile Menu Css Close *********************/
+
+/********************  hero_sec Css Start  *********************/
+.video_block {
+  position: absolute;
+  top: -150px;
+  right: 80px;
+  z-index: -1;
+  width: 540px;
+  height: 450px;
+  pointer-events: none;
+}
+.video_block video{
+  max-width: 150%;
+}
+.hero_sec{
+  padding: 150px 0;
+  position: relative;
+}
+.hero_sec > .container {
+  position: relative;
+}
+.hero_sec_row {
+  align-items: center;
+}
+.hero_sec_text > h1{
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.hero_btn a{
+  background: linear-gradient(120.79deg, #AA14F0 21.21%, #29ABE2 98.71%);
+  border-radius: 33px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 1px;
+  color: #FFFFDD;
+  padding: 9.5px 31px;
+  display: inline-block;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
+.hero_btn a:hover{
+  transform: translateY(-3px);
+}
+.hero_left{
+  position: absolute;
+  top: 36px;
+  left: 0;
+  background-color: rgb(4 7 24);
+  mix-blend-mode: lighten;
+}
+.hero_right{
+  position: absolute;
+  bottom: 283px;  
+  right: 0;
+  background-color: rgb(4 7 24);
+  mix-blend-mode: lighten;
+}
+.hero_left img,
+.hero_right img,
+.liability_animation_1 img,
+.liability_animation_2 img,
+.allStablecoin_animation img,
+.join_community_animation_1 img,
+.join_community_animation_2 img{
+  mix-blend-mode: luminosity ;
+}
+.hero_sec .shaka-bottom-controls{
+  display: none;
+}
+.hero_sec .shaka-controls-container[casting=true] .shaka-scrim-container,
+.hero_sec .shaka-controls-container[shown=true] .shaka-scrim-container {
+  opacity: 0;
+}
+.hero_sec .shaka-spinner-container.shaka-hidden{
+  display: none;
+}
+.hero_sec .shaka-no-propagation{
+  display: none;
+}
+/********************  hero_sec Css End  *********************/
+
+/********************  mercury_features_sec Css Start  *********************/
+.sam_padding{
+  padding: 120px 0;
+}
+.mercury_features_sec .web_heading{
+  margin-bottom: 40px;
+}
+.web_heading h2{
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.455;
+  color: #FFFFFF;
+  text-align: center; 
+  font-family: Helvetica_Bold;
+}
+.web_heading h2 br{
+  display: none;
+}
+.web_heading h2 span{
+  color: #AA14F0;
+}
+.mercury_features_card{
+  position: relative;
+  padding: 20px 30px 30px 30px;
+  text-align: center;
+  min-height: 356px;
+}
+.mercury_features_card::after{
+  content: '';
+  background: linear-gradient(360deg, #29ABE2 0%, rgba(41, 171, 226, 0.1) 100%);
+  border-radius: 14px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+  transition: all 0.4s ease;
+}
+.mercury_features_card:hover::after{
+  opacity: 1;
+}
+.mercury_card_img{
+  background: rgba(7, 11, 36, 0.8);
+  backdrop-filter: blur(15px);
+  border-radius: 14px;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mercury_card_img img{
+  animation: dots-vibrate 4s linear 0s infinite normal forwards;
+
+}
+/*------------ Animation Css Start---------------*/
+@keyframes dots-vibrate {
+  0% {
+      transform: translate(0);
+  }
+
+  20% {
+      transform: translate(-4px, 4px);
+  }
+
+  40% {
+      transform: translate(-4px, -4px);
+  }
+
+  60% {
+      transform: translate(4px, 4px);
+  }
+
+  80% {
+      transform: translate(4px, -4px);
+  }
+
+  100% {
+      transform: translate(0);
+  }
+}
+/*------------ Animation Css end---------------*/
+.mercury_card_text{
+  margin-top: 20px;
+}
+.mercury_card_text h4{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 10px;
+  letter-spacing: 1.3px;
+}
+.mercury_card_text a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #C4C4C4;
+}
+.mercury_card_text a:hover{
+  color: #AA14F0;
+}
+.mercury_card_text a img{
+  margin-left: 10px;
+  transition: all 0.4s ease;
+}
+.mercury_card_text a:hover img{
+  transform: translateX(4px);
+}
+/********************  mercury_features_sec Css End  *********************/
+
+/********************  mercury_features_sec Css Start  *********************/
+.liability_centric_sec{
+  width: 100%;
+  margin: 120px 0 117px 0;
+  position: relative;
+  background-color: rgb(4 7 24);
+}
+.liability_centric_sec::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../src/assets/images/HomePage/liability_bg_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: lighten;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: lighten;
+  -webkit-mix-blend-mode: lighten;
+}
+.liability_centric_row{
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+}
+.liability_centric_row > div{
+  padding: 0 15px;
+  width: 50%;
+}
+.liability_centric_sec .web_heading{
+  max-width: 530px;
+}
+.liability_centric_sec .web_heading h2{
+  text-align: left;
+}
+.liability_centric_row .liability_img_block{
+  display: flex;
+  justify-content: center;
+}
+.liability_img_block .liability_img{
+  position: relative;
+}
+.animation_border_block{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+.liability_img_block .animation_border{
+  border: 1px solid #fff;
+  width: 478px;
+  height: 478px;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  animation: rotate 7s infinite linear;
+}
+.animation_border .circle{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.animation_border .circle.blue {
+  left: 350px;
+  top: 370px;
+}
+.animation_border .circle.yellow {
+  left: 350px;
+  top: 10px;
+}
+.animation_border .circle.teal {
+  left: -60px;
+  top: 190px;
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+.liability_animation_1{
+  position: absolute;
+  left: 86px;
+  bottom: 77px;
+  background-color: rgb(4 7 24);
+  mix-blend-mode: lighten;
+}
+.liability_animation_2{
+  position: absolute;
+  right: 109px;
+  top: 0px;
+  background-color: rgb(4 7 24);
+  mix-blend-mode: lighten;
+}
+/********************  mercury_features_sec Css End  *********************/
+
+/********************  AllStablecoinSec Css Start  *********************/
+.allStablecoin_sec{
+  position: relative;
+}
+.allStablecoin_sec .allStablecoin_animation{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(4 7 24);
+  mix-blend-mode: lighten;
+}
+.allStablecoin_sec .web_heading h2 br{
+    display: block;
+}
+.allStablecoin_sec .web_heading{
+  margin-bottom: 40px;
+}
+.allStablecoin_card{
+  border-radius: 14px;
+  background-color: #040F18;
+  padding: 26px;
+}
+.fill_border:hover{
+  background: #29ABE2; 
+}
+.fill_border{
+  background: linear-gradient(180deg, #29ABE2 15%, #29ABE2 10%, #29ABE2 5%, rgba(4, 15, 24, 0) 70%, rgba(4, 15, 24, 0) 100%);  
+  padding: 1px;
+  border-radius: 14px;
+  transition: all 0.5s ease;
+  min-height: 36px;
+}
+.allStablecoin_sec .row div:nth-child(even) .fill_border{
+  background: linear-gradient(0deg, #29ABE2 15%, #29ABE2 10%, #29ABE2 5%, rgba(4, 15, 24, 0) 70%, rgba(4, 15, 24, 0) 100%);  
+  transition: all 0.5s ease;
+}
+.allStablecoin_sec .row div:nth-child(even) .fill_border:hover{
+  background: #29ABE2; 
+}
+.allStablecoin_img img{
+  animation: dots-vibrate 4s linear 0s infinite normal forwards;
+}
+.allStablecoin_sec  .mercury_card_text{
+  margin: 0;
+}
+/********************  AllStablecoinSec Css End  *********************/
+
+/********************  mercury_finance_sec Css Start  *********************/
+.mercury_finance_sec{
+  position: relative;
+}
+.mercury_finance_sec .web_heading{
+  margin-bottom: 40px;
+}
+.table_block thead tr th {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 29px 0;
+  width: 33.33%;
+  border-right: 1px solid #29ABE5;
+  position: relative;
+}
+.table_block thead tr th:last-child{
+  border-radius: 14px 0 0 0;
+}
+.table_block thead tr th::after {
+  content: '';
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.8;
+  filter: blur(30px);
+  -webkit-filter: blur(30px);
+}
+.table_block thead tr th:last-child::after{
+  display: none;
+}
+.table_main_block{
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+.main_wrapper{
+  overflow: hidden !important;
+}
+.table_block{
+  background-image: url(../src/assets/images/HomePage/Rectangle_24.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.table_block::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 14px;
+}
+.table_block thead{
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0.165) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 14px;
+}
+.table_block tbody tr td{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 0;
+  width: 33.33%;
+  border-right: 1px solid #29ABE5;
+}
+.table_block tbody tr td:last-child,
+.table_block thead tr th:last-child{
+  border-right: 0px;
+}
+.table_block tbody tr {
+  position: relative;
+}
+.table_block tbody tr::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  border-bottom: 1px solid;
+  border-image-source: linear-gradient(90deg, #29ABE2 0%, rgba(41, 171, 226, 0) 33.25%, #29ABE2 49.92%, rgba(41, 171, 226, 0) 66.65%, #29ABE2 100%);
+  border-image-slice: 1;
+  width: 100%;
+}
+.table_block tbody tr:first-child::after{
+  display: none;
+}
+.mercury_finance_animation{
+  position: absolute;
+  left: 0;
+  top: 130px;
+}
+/********************  mercury_finance_sec Css End  *********************/
+
+/********************  join_community Css End  *********************/
+.join_community{
+  padding-bottom: 120px;
+  position: relative;
+}
+.join_community_block{
+  background: linear-gradient(180deg, rgb(41 171 226) 15%, rgb(41 171 226) 10%, rgb(41 171 226) 5%, rgb(4 15 24 / 0%) 70%, rgb(4 15 24 / 0%) 100%);
+  padding: 1px;
+  border-radius: 14px;
+}
+.join_community_bg {
+  padding: 85px 0;
+  background-image: url(../src/assets/images/HomePage/join_community_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(4 7 24);
+  align-items: center;
+  border-radius: 14px;
+}
+.join_community .web_heading h2{
+  letter-spacing: 3px;
+}
+.join_community .web_heading p{  
+  color:#29ABE2;
+  display: inline-block;
+}
+.join_community_bg ul{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.join_community_bg ul li:not(:last-child){
+  margin-right: 30px;
+}
+.join_community_animation_1{
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  background-color: rgb(4 7 24);
+  mix-blend-mode: lighten;
+}
+.join_community_animation_2{
+  position: absolute;
+  right: 0;
+  bottom: 19px;
+  background-color: rgb(4 7 24);
+  mix-blend-mode: lighten;
+}
+/********************  join_community Css End  *********************/
+
+/********************  footer Css Start  *********************/
+.footer{
+  background: linear-gradient(360deg, rgba(4, 7, 24, 0) 0%, rgba(41, 171, 226, 0.09) 100%);
+}
+.footer_block{
+  padding: 40px 0;
+}
+.footer_block{
+  align-items: center;
+}
+.footer_icons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer_icons li{
+  margin-left: 20px;
+}.footer_icons li a{
+  display: inline-block;
+}
+.copyright_block{
+  padding: 20px 0;
+  border: 0;
+  border-top: 1px solid hsl(0deg 0% 100% / 10%);
+  text-align: center;
+}
+.copyright_block p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #C4C4C4;
+}
+.copyright_block p a{
+  transition: all 0.4s ease;
+  color: #C4C4C4;
+}
+.copyright_block p a:hover{
+  color: #AA14F0;
+}
+/********************  footer Css End  *********************/
+
+/* 
+
+font-family: Helvetica; 
+font-family: Helvetica_Bold;
+
+
+*/
